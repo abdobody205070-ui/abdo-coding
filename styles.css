@@ -1,1 +1,86 @@
 
+body{
+  margin:0;
+  font-family:Arial;
+  direction:rtl;
+  background:#0b1220;
+  color:white;
+}
+
+.hidden{display:none;}
+
+/* LOGIN */
+.login{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#0b1220,#1e293b);
+}
+
+.login-card{
+  width:320px;
+  padding:25px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-radius:15px;
+  text-align:center;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border:none;
+  border-radius:8px;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  margin-top:8px;
+  border:none;
+  border-radius:8px;
+  background:#3b82f6;
+  color:white;
+}
+
+.secondary{background:#334155;}
+
+/* NAV */
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#111827;
+}
+
+.container{padding:20px;}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.course{
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+.course:hover{
+  background:#334155;
+}
+
+.course-view{
+  margin-top:20px;
+}
+
+.profile{
+  padding:15px;
+  background:#1e293b;
+  margin:10px 20px;
+  border-radius:10px;
+}
